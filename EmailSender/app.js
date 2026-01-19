@@ -31,7 +31,7 @@ const sendEmail= async(mailDetails) => {
     try {
         await sendEmail({
             from: `"Hiflex's App" <${process.env.EMAIL_USER}>`,
-            to: "brightchim81@gmail.com",
+            to: process.env.EMAIL_SENDER,
             subject: "You've gotten a mail from Hiflex",
             text:"plain text callback",
             html: `
