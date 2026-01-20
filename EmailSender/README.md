@@ -51,6 +51,7 @@ nodemon emailSender.js
   - <br>
 # 🚫 Troubleshooting
   | Issues | solution |
+  |---------|-------------|------------|
   | 535-5.7.8 | Enable 2FA + App password |
   | Connection timeout | Check firewall/VPN |
   | Invalid login | Verify .env credentials |
