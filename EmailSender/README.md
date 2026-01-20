@@ -40,9 +40,9 @@ nodemon emailSender.js
 
 
 # 🛠️ Customization
-  <img width="797" height="306" alt="image" src="https://github.com/user-attachments/assets/a894ae03-c2d8-4b8c-9651-8d860c1d8195" />
+  <img width="797" height="306" alt="image" src="https://github.com/user-attachments/assets/a894ae03-c2d8-4b8c-9651-8d860c1d8195" /> <br>
 # ✅ Testing
-   <img width="887" height="228" alt="image" src="https://github.com/user-attachments/assets/49ec35ed-0680-461a-9a75-787c4d8eb63f" />
+   <img width="887" height="228" alt="image" src="https://github.com/user-attachments/assets/49ec35ed-0680-461a-9a75-787c4d8eb63f" /> <br>
 # Security Notes
   - ✅ Uses App Password (not regular Gmail password)
   - ✅ TLS with rejectUnauthorized: false for self-signed certs
