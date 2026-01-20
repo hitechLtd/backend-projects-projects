@@ -1,16 +1,20 @@
-## Hitech email sender
-A lightweigh Node.js utility for sending emails via Gmail SMTP using Nodemailer. Perfect for notifications,alerts, and transcation emails in your full stack apps
-# ✨ Features
-  - Gmail SMTP integration with secure TLS
-  - Configurable timeouts for reliable delivery
-  - HTML and plain text email support which you can modify for your needs
-  - Environment variable-based credentials
-  - Async/await error handling
-  - Malawi timezon formatting (en-MW)
-# 📦 Installation
- - Bash
-   1. Npm init -y
-   2. npm install nodemailer dotenv
+# Hitech Email Sender
+
+A lightweight Node.js utility for sending emails via Gmail SMTP using Nodemailer. Perfect for notifications, alerts, and transaction emails in your full-stack apps.
+
+## ✨ Features
+- Gmail SMTP integration with secure TLS
+- Configurable timeouts for reliable delivery
+- HTML and plain text email support (fully customizable)
+- Environment variable-based credentials
+- Async/await error handling
+- Malawi timezone formatting (`en-MW`)
+
+## 📦 Installation
+
+```bash
+npm init -y
+npm install nodemailer dotenv
 # 🔧 Setup
   1. Create a .env file in your project root:
        EMAIL_USER=yourgmail@gmail.com
@@ -22,7 +26,9 @@ A lightweigh Node.js utility for sending emails via Gmail SMTP using Nodemailer.
   ## Basic Email
   <img width="639" height="297" alt="image" src="https://github.com/user-attachments/assets/264a3220-003a-4e2a-8802-8bb3b4c10404" />
 # Test Email (IIFE)
-  Run using nodemon or just node emailSender.js
+ node emailSender.js
+# or with nodemon:
+nodemon emailSender.js
 # ⚙️Configuration Options
   | Property | Default | Description |
   | host | smtp.gmail.com |SMTP server |
