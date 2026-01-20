@@ -49,14 +49,15 @@ nodemon emailSender.js
   - ✅ Environment variables for credentials
   - ✅ Configurable timeouts prevent hanging
   - <br>
-# 🚫 Troubleshooting
-  | Issues | solution |
-  |---------|-------------|------------|
-  | 535-5.7.8 | Enable 2FA + App password |
-  | Connection timeout | Check firewall/VPN |
-  | Invalid login | Verify .env credentials |
-  | Emails in spam | Add DKIM/SPF (Gmail auto-handles) |
+## Nodemailer + Gmail Troubleshooting
 
+| Issue                          | Solution                              | Port / Config Note          | Common Cause / Extra Tip                     |
+|--------------------------------|---------------------------------------|-----------------------------|----------------------------------------------|
+| Invalid login                  | Enable 2FA + create App Password      | -                           | Never use your regular Gmail password        |
+| Connection timeout             | Check firewall / VPN / network        | 587 or 465                  | Try toggling between ports                   |
+| Emails sent but in spam        | Add DKIM/SPF (Gmail auto-handles)     | -                           | Improve sender reputation if bulk sending    |
+| 535-5.7.8 Authentication error | Enable 2FA + App Password             | -                           | Most common Gmail SMTP error in 2026         |
+| Verify .env credentials        | Double-check user/pass in code/env    | -                           | Typo in email or App Password is frequent    |
    
      
      
