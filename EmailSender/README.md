@@ -24,7 +24,7 @@ npm install nodemailer dotenv
   2. Save your emailSender.js or App.js which ever way you may call it
 # 🚀 Usage
   ## Basic Email
-  <img width="639" height="297" alt="image" src="https://github.com/user-attachments/assets/264a3220-003a-4e2a-8802-8bb3b4c10404" />
+  <img width="639" height="297" alt="image" src="https://github.com/user-attachments/assets/264a3220-003a-4e2a-8802-8bb3b4c10404" /> <br>
 # Test Email (IIFE)
  node emailSender.js
 # or with nodemon:
