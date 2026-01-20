@@ -12,7 +12,7 @@ A lightweight Node.js utility for sending emails via Gmail SMTP using Nodemailer
 
 ## 📦 Installation
 
-```bash
+
 npm init -y
 npm install nodemailer dotenv
 # 🔧 Setup
@@ -30,12 +30,15 @@ npm install nodemailer dotenv
 # or with nodemon:
 nodemon emailSender.js
 # ⚙️Configuration Options
-  | Property | Default | Description |
-  | host | smtp.gmail.com |SMTP server |
-  | port | 587 |STARTTTLS port |
-  | secure | false |Use TLS |
-  | connectionTimeout | 10000ms |Connection timeout |
-  | socketTimeout | 10000ms |Socket timeout |
+| Property | Default | Description |
+|---------|-------------|------------|
+| host | smtp.gmail.com| SMTP server|
+| port | 587 | STARTTLS port|
+|secure | false | Use TLS|
+| ConnectionTimeout| 10000ms | Connection timeout|
+| SocketTimeout |10000ms | Socket timeout|
+
+
 # 🛠️ Customization
   <img width="797" height="306" alt="image" src="https://github.com/user-attachments/assets/a894ae03-c2d8-4b8c-9651-8d860c1d8195" />
 # ✅ Testing
