@@ -48,6 +48,7 @@ nodemon emailSender.js
   - ✅ TLS with rejectUnauthorized: false for self-signed certs
   - ✅ Environment variables for credentials
   - ✅ Configurable timeouts prevent hanging
+  - <br>
 # 🚫 Troubleshooting
   | Issues | solution |
   | 535-5.7.8 | Enable 2FA + App password |
